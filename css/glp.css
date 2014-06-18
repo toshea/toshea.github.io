@@ -12,15 +12,20 @@ a {
 }
 
 header {
+  background: white;
   border-top: 0.2em solid #99ca3e;
 }
 
 nav {
   height: 4em;
-  background: white;
   max-width: 40em;
   margin: 0 auto;
   font-weight: bold;
+  border-bottom: 0.5em solid whitesmoke;
+}
+
+#logo {
+  font-size: 2em;
 }
 
 .right {
@@ -33,7 +38,6 @@ nav {
 
 .dropdown {
   bottom: -1em;
-  background: grey;
   position: relative;
   display: inline-block;
 }
