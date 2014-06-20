@@ -3,8 +3,10 @@
     <title>GLP | Home</title>
     <meta content="Dylan O'Shea" name="author">
     <meta charset="utf-8">
-    <LINK href="./css/glp.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.3.6/slick.css"/>
+    <link href="./css/glp.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.3.6/slick.min.js"/></script>
     <script type="text/javascript" src="./js/glp.js"></script>
   </head>
   <body>
@@ -18,7 +20,7 @@
           <div class='dropdown'>
             <a href='/'>ABOUT</a>
           </div>
-          
+          <a class='dropdown spacer'>|</a>
           <div class='dropdown'>
             <a class='lead' href='projects.html'>WORK</a>
             <div class='dropgroup'
@@ -27,7 +29,7 @@
               <a href='projects.html'>PROJECTS</a>
             </div>
           </div>
-
+          <a class='dropdown spacer'>|</a>
           <div class='dropdown'>
             <a href='/'>HOMEOWNERS</a>
           </div>
@@ -36,9 +38,44 @@
       </nav>
     </header>
 
-    <section id='img-holder'>
-      <img src='img/eastlake_6/space_needle.jpg' width="60%">
-    </section>
+    <div id='body'>
+      
+      <!-- <img class='splash' src='img/eastlake_6/space_needle.jpg'> -->
+      <div class='slick'>
+        <!-- <div> -->
+          <img class='splash' src='img/eastlake_6/space_needle.jpg'>
+        <!-- </div> -->
+        <!-- <div> -->
+          <img class='splash' src='img/eastlake_6/bathroom.jpg'>
+        <!-- </div> -->
+        <!-- <div> -->
+          <img class='splash' src='img/eastlake_6/rooftop.jpg'>
+        <!-- </div> -->
+      </div>
+
+      <hr>
+
+      <section id='below-fold'>
+        <div>
+          <img src='img/built_green.png'>
+          <p>
+            Portland flannel +1 swag. Tousled gluten-free narwhal Austin tofu bicycle rights. Polaroid try-hard tousled occupy cornhole, crucifix literally. Literally normcore you probably haven't heard of them yr, crucifix small batch meh ethnic typewriter photo booth Thundercats Schlitz.
+          </p>
+        </div>
+        <div>
+          <img src='img/built_green.png'>
+          <p>
+            Pinterest art party actually post-ironic jean shorts occupy. Blue Bottle ethical PBR&B, seitan chambray art party bicycle rights mumblecore American Apparel dreamcatcher. Messenger bag ethnic bespoke meh. Synth Shoreditch YOLO Bushwick mumblecore. Twee viral McSweeney's art party.
+          </p>
+        </div>
+        <div>
+          <img src='img/built_green.png'>
+          <p>
+            Banjo photo booth Tumblr Neutra dreamcatcher, bespoke DIY kale chips vinyl disrupt readymade deep v small batch synth Pitchfork. Food truck Tumblr single-origin coffee keytar synth, dreamcatcher bespoke pop-up. Retro fanny pack chillwave Williamsburg stumptown VHS.
+          </p>
+        </div>
+      </section>
+    </div>
 
     <footer>
       <section>

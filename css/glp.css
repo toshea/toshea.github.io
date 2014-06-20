@@ -17,8 +17,8 @@ header {
 }
 
 nav {
-  height: 4em;
-  max-width: 40em;
+  padding-top: 1em;
+  max-width: 955px;
   margin: 0 auto;
   font-weight: bold;
   border-bottom: 0.5em solid whitesmoke;
@@ -30,6 +30,8 @@ nav {
 
 .right {
   text-align: right;
+  float: right;
+  display: inline-block;
 }
 
 #img-holder {
@@ -37,8 +39,8 @@ nav {
 }
 
 .dropdown {
-  bottom: -1em;
-  position: relative;
+/*  bottom: -1em;
+  position: relative;*/
   display: inline-block;
 }
 
@@ -61,4 +63,40 @@ footer section {
   max-width: 955px; 
   margin: 0 auto;
   text-align: center;
+}
+
+#below-fold {
+  min-height: 14em;
+}
+
+#below-fold div {
+  width: 30%;
+  margin: 0 1.5%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  font-size: small;
+}
+
+#below-fold img {
+  width: 40%;
+}
+#body {
+  width: 100%;
+  min-width: 320px;
+  max-width: 955px;
+  margin: 0 auto;
+}
+.splash {
+  width: 100%;
+}
+.slick {
+  height: 40em;
+}
+.slick img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.slick-list {
+  min-width: 100%;
 }
